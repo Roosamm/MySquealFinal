@@ -1,0 +1,100 @@
+html, body {
+    background-color: #689f38;
+    margin: 0;
+}
+
+.imagePost {
+    /*background-color: ivory;*/
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 54px;
+}
+
+.postTitle {
+    background-color: #c79a00;
+    color: ivory;
+    padding: 1px 10px;
+    width: 100%;
+}
+
+.article {
+    padding: 1px 12px;
+    width: 100%;
+}
+
+.postedImage {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.imageView {
+    text-align: center;
+    display: block;
+    margin: 1rem;
+
+}
+
+.commentAndSubmit {
+    background-color: ivory;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.submitComment {
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #387002;
+    color: ivory;
+}
+
+.submitComment:hover{
+    opacity: 0.8;
+}
+
+
+.postedComments {
+    background-color: ivory;
+    padding: 15px;
+    border-radius: 10px;
+}
+iframe {
+    width: 100%;
+}
+
+.cmtContainer{
+    padding: 5px;
+}
+
+.cmtBox {
+    padding: 1px;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: ivory;
+    border-radius: 10px;
+}
+.rightPanel {
+    width: 85%;
+    float: left;
+    margin-left: 1%;
+}
+
+.clear {
+    clear:both;
+}
+
+
+/* =============== Media =============== */
+
+@media only screen and (max-width: 600px) {
+    .imagePost {
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+        padding-top: 40px;
+    }
+}
